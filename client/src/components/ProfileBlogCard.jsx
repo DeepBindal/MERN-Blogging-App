@@ -53,7 +53,7 @@ const ProfileBlogCard = ({
           onCancel={handleCancel}
         />
       )}
-      <div className="flex flex-col md:flex-row gap-4 bg-gray-900 p-4 rounded-xl shadow-xl mb-6 mx-auto max-w-4xl">
+      <div className="flex flex-col md:flex-row gap-4 bg-gray-900 p-4 rounded-xl w-full shadow-xl mb-6 mx-auto max-w-4xl">
         <Link
           to={`/blog/${blogId}`}
           className="block w-full rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"

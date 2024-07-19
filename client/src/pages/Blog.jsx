@@ -35,7 +35,7 @@ function Blog() {
         </div>
       ) : (
         <>
-          <div className="flex flex-col items-center min-h-screen p-4">
+          <div className="flex flex-col items-center min-h-scn p-4">
             <div className="max-w-2xl w-full bg-zinc-950 shadow-lg rounded-lg overflow-hidden">
               <img
                 className="w-full h-64 object-cover object-center rounded-t-lg"
